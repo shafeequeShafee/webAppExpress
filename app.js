@@ -26,6 +26,7 @@ app.use(express.json()) // json format use cheyyaaaan
 
 app.use(express.urlencoded({ extended: true }))  
 
+
 app.use(express.static(`${__dirname}/views/`));
 app.use('/public', express.static('public'));
 
